@@ -1,0 +1,23 @@
+{
+  "name": "dentist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominickMikka/dentist.git"
+  },
+  "keywords": [],
+  "author": "Mikhail Darozhka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominickMikka/dentist/issues"
+  },
+  "homepage": "https://github.com/DominickMikka/dentist#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
