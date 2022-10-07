@@ -1,5 +1,101 @@
-p {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EudoxusSans-Regular";
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"), url("../fonts/Satoshi-Bold.woff") format("woff"), url("../fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2"), url("../fonts/Satoshi-Medium.woff") format("woff"), url("../fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EudoxusSans-Regular";
+  src: url("../fonts/EudoxusSans-Regular.woff2") format("woff2"), url("../fonts/EudoxusSans-Regular.woff") format("woff"), url("../fonts/EudoxusSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EudoxusSans-Medium";
+  src: url("../fonts/EudoxusSans-Medium.woff2") format("woff2"), url("../fonts/EudoxusSans-Medium.woff") format("woff"), url("../fonts/EudoxusSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EudoxusSans-Bold";
+  src: url("../fonts/EudoxusSans-Bold.woff2") format("woff2"), url("../fonts/EudoxusSans-Bold.woff") format("woff"), url("../fonts/EudoxusSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EudoxusSans-ExtraBold";
+  src: url("../fonts/EudoxusSans-ExtraBold.woff2") format("woff2"), url("../fonts/EudoxusSans-ExtraBold.woff") format("woff"), url("../fonts/EudoxusSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 55px;
+}
+header nav {
+  display: flex;
+  gap: 55px;
+}
+header nav a {
+  font-family: "EudoxusSans-Bold";
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  color: #181945;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+.logo a span {
+  font-family: "EudoxusSans-ExtraBold";
+  font-size: 24px;
+  color: #181945;
+  letter-spacing: -0.02em;
+  padding: 0 0 0 10px;
+}
+
+.book-appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 174px;
+  height: 48px;
+  font-family: "EudoxusSans-Bold";
+  background: #583FBC;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
