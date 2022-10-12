@@ -108,6 +108,7 @@ main {
 }
 .slider .slide {
   display: flex;
+  gap: 67px;
   position: relative;
   border-radius: 48px;
   padding: 145px 107px 140px 107px;
@@ -171,6 +172,48 @@ main {
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #181945;
+}
+.slider .slide .slide-right {
+  display: flex;
+  align-items: flex-end;
+}
+.slider .slide .slide-right .active-doctor {
+  position: relative;
+  top: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  width: 270px;
+  height: 88px;
+  padding: 0 0 0 95px;
+  background: url(../assets/doctor.png) 18px center #FFFFFF no-repeat;
+  box-shadow: 0px 32px 64px -16px rgba(24, 25, 69, 0.1);
+  border-radius: 24px;
+}
+.slider .slide .slide-right .active-doctor .doctor-name {
+  font-family: "EudoxusSans-Bold";
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.slider .slide .slide-right .active-doctor .doctor-position {
+  font-family: "EudoxusSans-Bold";
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.6;
+}
+.slider .slide .slide-right .active-doctor::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 62px;
+  top: 58px;
+  background: #1FC073;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
 }
 .slider .slide::before {
   content: "";
