@@ -173,6 +173,11 @@ main {
         opacity: 0.7;
       }
 
+      .slider-buttons {
+        display: flex;
+        gap: 48px;
+      }
+
       .slider-button {
         width: 240px;
         height: 64px;
@@ -181,6 +186,36 @@ main {
         letter-spacing: 1px;
         font-family: "EudoxusSans-Bold";
       }
+
+      .call-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 80px;
+        background: url(../assets/icons/phone.png) no-repeat;
+        text-decoration: none;
+
+        span {
+          font-family: "EudoxusSans-Bold";
+          text-transform: uppercase;
+        }
+
+        .call-button-text {
+          padding: 0 0 7px 0;
+          font-size: 12px;
+          letter-spacing: 0.08em;
+          color: #583FBC;
+        }
+
+        .call-button-phone {
+          font-size: 16px;
+          letter-spacing: -0.02em;
+          color: #181945;
+        }
+      }
+
+
+      
     }
   }
 
