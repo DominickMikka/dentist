@@ -125,6 +125,7 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 .slider {
@@ -297,5 +298,30 @@ main {
     height: 12px;
     border-radius: 50px;
     background: #583FBC;
+  }
+}
+
+.slogan {
+  position: relative;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 152px 0;
+  font-family: 'EudoxusSans-Medium';
+  font-size: 36px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #181945;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    margin: 0 auto;
+    bottom: 120px;
+    transform: translate(-130%, 50%);
+    background: #583FBC;
+    border-radius: 2px;
   }
 }
