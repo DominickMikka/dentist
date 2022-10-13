@@ -251,7 +251,7 @@ main {
   position: relative;
   max-width: 840px;
   margin: 0 auto;
-  padding: 152px 0;
+  padding: 152px 0 146px;
   font-family: "EudoxusSans-Medium";
   font-size: 36px;
   line-height: 72px;
@@ -269,6 +269,92 @@ main {
   transform: translate(-130%, 50%);
   background: #583FBC;
   border-radius: 2px;
+}
+
+.services {
+  padding: 0 55px;
+}
+.services .services-header {
+  display: flex;
+  gap: 163px;
+  margin-bottom: 94px;
+}
+.services .services-header .services-header-titles {
+  font-family: "EudoxusSans-Bold";
+}
+.services .services-header .services-header-titles .services-title {
+  padding: 0 0 20px 0px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+}
+.services .services-header .services-header-titles h2 {
+  max-width: 520px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #181945;
+}
+.services .services-header .services-header-text {
+  max-width: 530px;
+  padding: 51px 0 0 0;
+  font-family: "EudoxusSans-Medium";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.6;
+}
+.services .services-items {
+  display: flex;
+  gap: 42px;
+}
+.services .services-items .services-item {
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 32px;
+}
+.services .services-items .services-item:nth-child(1) .services-item-top {
+  background: #DBEFFA;
+}
+.services .services-items .services-item:nth-child(2) .services-item-top {
+  background: #DBDEFA;
+}
+.services .services-items .services-item:nth-child(3) .services-item-top {
+  background: #F6DBFA;
+}
+.services .services-items .services-item:nth-child(4) .services-item-top {
+  background: #FADBE2;
+}
+.services .services-items .services-item .services-item-top {
+  min-height: 200px;
+  margin: 0 0 25px 0;
+  border-radius: 32px;
+}
+.services .services-items .services-item .services-item-top img {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+}
+.services .services-items .services-item .services-item-title {
+  margin: 0 0 15px 0;
+  font-family: "EudoxusSans-Bold";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.services .services-items .services-item .services-item-content {
+  font-family: "EudoxusSans-Medium";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=style.css.map */
