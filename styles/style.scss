@@ -370,9 +370,10 @@ main {
   .services-items {
     display: flex;
     gap: 42px;
+    margin: 0 0 98px 0;
 
     .services-item {
-      padding: 15px;
+      padding: 15px 15px 35px;
       background: #FFFFFF;
       border: 1px solid rgba(24, 25, 69, 0.1);
       border-radius: 32px;
@@ -425,5 +426,26 @@ main {
       }
     }
 
+  }
+
+  .all-services-button {
+    display: block;
+    margin: 0 auto;
+    max-width: 240px;
+    text-align: center;
+    background: rgba(88, 63, 188, 0.1);
+    border-radius: 16px;
+    font-family: "EudoxusSans-Bold";
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #583FBC;
+    text-decoration: none;
+    padding: 14px 15px 21px 0;
+
+    img {
+      position: relative;
+      top: 5px;
+      right: -16px;
+    }
   }
 }
