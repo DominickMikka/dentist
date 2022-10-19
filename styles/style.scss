@@ -327,6 +327,7 @@ main {
 }
 
 .services {
+  margin: 0 0 200px 0;
   padding: 0 55px;
 
   .services-header {
@@ -446,6 +447,69 @@ main {
       position: relative;
       top: 5px;
       right: -16px;
+    }
+  }
+}
+
+.dental-emergency {
+  display: flex;
+  gap: 235px;
+
+  .patient {
+    position: relative;
+
+    img {
+      position: relative;
+      top: 63px;
+      left: 125px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 55px;
+      width: 400px;
+      height: 510px;
+      background: #DBEFFA;
+      border-radius: 32px;
+    }
+  }
+
+  .dental-content {
+    padding: 58px 0 0 0;
+
+    .dental-title {
+      padding: 0 0 20px 0px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #583FBC;
+      font-weight: bold;
+    }
+
+    h2 {
+      max-width: 565px;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: -1px;
+      color: #181945;
+    }
+
+    .dental-content-text {
+      max-width: 510px;
+      padding: 22px 0 72px 0;
+      font-family: "EudoxusSans-Medium";
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #181945;
+      opacity: 0.6;
+    }
+
+    .dental-button {
+      width: 240px;
+      height: 65px;
+      font-size: 16px;
     }
   }
 }

@@ -272,6 +272,7 @@ main {
 }
 
 .services {
+  margin: 0 0 200px 0;
   padding: 0 55px;
 }
 .services .services-header {
@@ -375,6 +376,61 @@ main {
   position: relative;
   top: 5px;
   right: -16px;
+}
+
+.dental-emergency {
+  display: flex;
+  gap: 235px;
+}
+.dental-emergency .patient {
+  position: relative;
+}
+.dental-emergency .patient img {
+  position: relative;
+  top: 63px;
+  left: 125px;
+}
+.dental-emergency .patient::before {
+  content: "";
+  position: absolute;
+  left: 55px;
+  width: 400px;
+  height: 510px;
+  background: #DBEFFA;
+  border-radius: 32px;
+}
+.dental-emergency .dental-content {
+  padding: 58px 0 0 0;
+}
+.dental-emergency .dental-content .dental-title {
+  padding: 0 0 20px 0px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+}
+.dental-emergency .dental-content h2 {
+  max-width: 565px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #181945;
+}
+.dental-emergency .dental-content .dental-content-text {
+  max-width: 510px;
+  padding: 22px 0 72px 0;
+  font-family: "EudoxusSans-Medium";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.6;
+}
+.dental-emergency .dental-content .dental-button {
+  width: 240px;
+  height: 65px;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
