@@ -513,3 +513,76 @@ main {
     }
   }
 }
+
+.features {
+  margin: 205px 0 0 0;
+  padding: 98px 230px 135px 277px;
+  background: #DBDEFA;
+  border-radius: 48px;
+
+  .features-title {
+    padding: 0 0 20px 0px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #583FBC;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: #181945;
+  }
+
+  .features-text {
+    padding: 22px 0 103px 0;
+    font-family: "EudoxusSans-Medium";
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #181945;
+    opacity: 0.8;
+  }
+
+  .features-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px 72px;
+
+    .feature-item {
+      display: flex;
+      gap: 21px;
+      width: 45%;
+
+      img:hover {
+        filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
+      }
+  
+      .feature-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 6px 0 0 0;
+  
+        .feature-title {
+          padding: 0 0 11px 0;
+          font-family: "EudoxusSans-Bold";
+          font-size: 20px;
+          letter-spacing: -0.02em;
+          color: #181945;
+        }
+  
+        .feature-content {
+          font-family: "EudoxusSans-Medium";
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.02em;
+          color: #181945;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+}
