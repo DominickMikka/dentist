@@ -515,7 +515,7 @@ main {
 }
 
 .features {
-  margin: 205px 0 0 0;
+  margin: 205px 0 150px 0;
   padding: 98px 230px 135px 277px;
   background: #DBDEFA;
   border-radius: 48px;
@@ -584,5 +584,82 @@ main {
       }
     }
   }
+}
 
+.experts-in-dental {
+  display: flex;
+  gap: 200px;
+
+  .experts-content {
+    padding: 62px 0 0 128px;
+
+    .experts-in-dental-title {
+      padding: 0 0 20px 0px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #583FBC;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: -1px;
+      color: #181945;
+    }
+
+    .experts-in-dental-text {
+      padding: 22px 75px 35px 0;
+      font-family: "EudoxusSans-Medium";
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #181945;
+      opacity: 0.6;
+    }
+
+    ul {
+      padding: 0 0 0 30px;
+      list-style: none;
+      
+      li {
+        position: relative;
+        letter-spacing: -0.02em;
+        color: #181945;
+        padding: 0 0 23px 0;
+        font-family: "EudoxusSans-Medium";
+        word-spacing: 3px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: -35px;
+          width: 20px;
+          height: 20px;
+          background: url(../assets/icons/marker.png) no-repeat;
+        }
+      }
+    }
+  }
+
+  .expert {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -14px;
+      width: 437px;
+      height: 510px;
+      background: #FADBE2;
+      border-radius: 32px;
+    }
+
+    img {
+      position: relative;
+      top: 59px;
+      left: -126px;
+    }
+  }
 }
