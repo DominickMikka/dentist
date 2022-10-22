@@ -569,6 +569,7 @@ main {
   display: flex;
   gap: 135px 160px;
   flex-wrap: wrap;
+  margin: 0 0 155px 0;
   padding: 100px 55px 125px;
   border-radius: 48px;
   background: #DBEFFA;
@@ -646,6 +647,92 @@ main {
   justify-content: center;
   gap: 10px;
   margin: 20px 0 0 0;
+}
+
+.blog .blog-title {
+  padding: 0 0 20px 0px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+  text-align: center;
+}
+.blog h2 {
+  margin: 0 0 93px 0;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #181945;
+  text-align: center;
+}
+.blog .blog-items {
+  display: flex;
+  gap: 40px;
+  padding: 0 55px;
+}
+.blog .blog-items .blog-item {
+  position: relative;
+  max-width: 400px;
+  height: 480px;
+  padding: 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 32px;
+}
+.blog .blog-items .blog-item .blog-item-date {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 16px;
+  font-family: "EudoxusSans-Bold";
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.blog .blog-items .blog-item .blog-item-date span {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(24, 25, 69, 0.6);
+}
+.blog .blog-items .blog-item .blog-item-image {
+  margin: 0 0 24px 0;
+}
+.blog .blog-items .blog-item .blog-item-image img {
+  border-radius: 32px;
+}
+.blog .blog-items .blog-item .blog-item-category {
+  padding: 0 0 12px 10px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+}
+.blog .blog-items .blog-item .blog-item-title {
+  font-family: "EudoxusSans-Bold";
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  line-height: 26px;
+  padding: 0 0 15px 10px;
+}
+.blog .blog-items .blog-item .blog-item-content {
+  font-family: "EudoxusSans-Medium";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.5;
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
