@@ -499,6 +499,7 @@ main {
 .experts-in-dental {
   display: flex;
   gap: 200px;
+  margin: 0 0 198px 0;
 }
 .experts-in-dental .experts-content {
   padding: 62px 0 0 128px;
@@ -562,6 +563,89 @@ main {
   position: relative;
   top: 59px;
   left: -126px;
+}
+
+.testimonial {
+  display: flex;
+  gap: 135px 160px;
+  flex-wrap: wrap;
+  padding: 100px 55px 125px;
+  border-radius: 48px;
+  background: #DBEFFA;
+}
+.testimonial .testimonial-titles {
+  max-width: 570px;
+  padding: 0 0 0 70px;
+}
+.testimonial .testimonial-titles .testimonial-title {
+  padding: 0 0 20px 0px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+}
+.testimonial .testimonial-titles h2 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #181945;
+}
+.testimonial .testimonial-text {
+  max-width: 450px;
+  padding: 51px 0 0 0;
+  font-family: "EudoxusSans-Medium";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.6;
+}
+.testimonial .reviews {
+  display: flex;
+  gap: 40px;
+}
+.testimonial .reviews .review {
+  width: 400px;
+  height: 287px;
+  margin: 10px 0 0 0;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+.testimonial .reviews .review .review-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: -55px;
+  border-radius: 90px;
+  border: 10px solid #DBEFFA;
+}
+.testimonial .reviews .review .review-name {
+  position: relative;
+  top: -30px;
+  font-family: "EudoxusSans-Bold";
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.testimonial .reviews .review .review-content {
+  text-align: center;
+  font-family: "EudoxusSans-Medium";
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.5;
+  top: -15px;
+  line-height: 24px;
+  padding: 0 40px;
+  position: relative;
+}
+.testimonial .reviews .review .review-stars {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
