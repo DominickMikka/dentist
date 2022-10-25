@@ -5,6 +5,10 @@
   font-family: "EudoxusSans-Regular";
 }
 
+input {
+  outline: none;
+}
+
 @font-face {
   font-family: "Satoshi-Bold";
   src: url("../fonts/Satoshi-Bold.woff2") format("woff2"), url("../fonts/Satoshi-Bold.woff") format("woff"), url("../fonts/Satoshi-Bold.ttf") format("truetype");
@@ -649,6 +653,9 @@ main {
   margin: 20px 0 0 0;
 }
 
+.blog {
+  margin: 0 0 200px 0;
+}
 .blog .blog-title {
   padding: 0 0 20px 0px;
   font-size: 12px;
@@ -733,6 +740,152 @@ main {
   color: #181945;
   opacity: 0.5;
   padding: 0 10px;
+}
+
+.form {
+  display: flex;
+  gap: 110px;
+  padding: 0 0 0 55px;
+}
+.form .map {
+  position: relative;
+}
+.form .map iframe {
+  border-radius: 50px;
+}
+.form .map .map-address {
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  width: 465px;
+  height: 120px;
+  background: #FFFFFF;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 0 0 28px;
+}
+.form .map .map-address span {
+  width: 270px;
+  font-family: "EudoxusSans-Bold";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.form .form-apply {
+  padding: 4px 0 0 0;
+}
+.form .form-apply .form-title {
+  padding: 0 0 20px 0px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583FBC;
+  font-weight: bold;
+}
+.form .form-apply h2 {
+  padding: 0 0 23px 0;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #181945;
+}
+.form .form-apply .form-text-content {
+  padding: 0 0 66px 0;
+  font-family: "EudoxusSans-Medium";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.6;
+}
+.form .form-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 38px;
+}
+.form .form-main select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../assets/icons/arrow-bottom.svg) 255px center #FFFFFF no-repeat;
+  min-width: 293px;
+  padding: 20px 126px 20px 20px;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 16px;
+}
+.form .form-main span {
+  display: block;
+  margin: 0 0px 14px 0;
+  font-family: "EudoxusSans-Bold";
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(24, 25, 69, 0.6);
+}
+.form .form-main input[type=text], .form .form-main input[type=email] {
+  min-width: 293px;
+  padding: 20px 126px 20px 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 16px;
+}
+.form .form-main textarea {
+  min-width: 622px;
+  min-height: 198px;
+  margin: 0 0 15px 0;
+  padding: 20px 126px 20px 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 16px;
+  resize: none;
+  outline: none;
+}
+.form .form-main .call-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+  padding: 0 0 0 80px;
+  background: url(../assets/icons/phone-form.png) no-repeat;
+  text-decoration: none;
+}
+.form .form-main .call-button span {
+  font-family: "EudoxusSans-Bold";
+  text-transform: uppercase;
+}
+.form .form-main .call-button .call-button-text {
+  padding: 0 0 7px 0;
+  margin: 0 0 0 0;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #583FBC;
+}
+.form .form-main .call-button .call-button-phone {
+  margin: 0 0 0 0;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+.form .form-main button {
+  width: 290px;
+  height: 64px;
+  margin-left: 45px;
+  word-spacing: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "EudoxusSans-Bold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #583FBC;
+  border-radius: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border: 0;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
