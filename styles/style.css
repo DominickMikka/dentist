@@ -48,7 +48,6 @@ input {
 body {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 32px 24px;
 }
 
 header {
@@ -56,7 +55,19 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 0 32px 0;
-  padding: 0 55px;
+  padding: 32px 80px 0;
+}
+header .logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+header .logo a span {
+  font-family: "EudoxusSans-ExtraBold";
+  font-size: 24px;
+  color: #181945;
+  letter-spacing: -0.02em;
+  padding: 0 0 0 10px;
 }
 header nav {
   display: flex;
@@ -72,19 +83,6 @@ header nav a {
   color: #181945;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.logo a {
-  text-decoration: none;
-  display: flex;
-  align-items: flex-end;
-}
-.logo a span {
-  font-family: "EudoxusSans-ExtraBold";
-  font-size: 24px;
-  color: #181945;
-  letter-spacing: -0.02em;
-  padding: 0 0 0 10px;
 }
 
 .book-appointment {
@@ -106,6 +104,8 @@ header nav a {
 main {
   display: flex;
   flex-direction: column;
+  padding: 0px 25px 0;
+  margin: 0 0 147px 0;
 }
 
 .slider {
@@ -886,6 +886,141 @@ main {
   color: #FFFFFF;
   border: 0;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px 100px;
+  background: #041434;
+}
+footer .footer-wrapper {
+  display: flex;
+  gap: 134px;
+  margin: 0 0 120px 0;
+}
+footer .footer-wrapper .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-wrapper .footer-info .logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+footer .footer-wrapper .footer-info .logo a span {
+  font-family: "EudoxusSans-ExtraBold";
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+  padding: 0 0 0 10px;
+}
+footer .footer-wrapper .footer-info .footer-description {
+  max-width: 510px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+footer .footer-wrapper .footer-info .footer-social {
+  padding: 37px 0 0 0;
+}
+footer .footer-wrapper .footer-info .footer-social .footer-social-title {
+  padding: 0px 0 25px 0;
+  font-family: "EudoxusSans-Bold";
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
+footer .footer-wrapper .footer-info .footer-social .footer-social-icons {
+  display: flex;
+  gap: 47px;
+}
+footer .footer-wrapper .footer-menu {
+  position: relative;
+  left: 16px;
+  min-width: 102px;
+}
+footer .footer-wrapper .footer-menu .footer-menu-title {
+  padding: 0px 0 30px 0;
+  font-family: "EudoxusSans-Bold";
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
+footer .footer-wrapper .footer-menu .footer-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .footer-wrapper .footer-menu .footer-menu-links a {
+  font-family: "EudoxusSans-Bold";
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-title {
+  padding: 0px 0 37px 0;
+  font-family: "EudoxusSans-Bold";
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content .item {
+  display: flex;
+  gap: 23px;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content .item .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 230px;
+  padding: 10px 0 0 0;
+  font-family: "EudoxusSans-Bold";
+  letter-spacing: -0.02em;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content .item .content-wrapper .item-title {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content .item .content-wrapper .item-phone {
+  font-size: 18px;
+  font-family: "EudoxusSans-Bold";
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .footer-wrapper .footer-contact-information .footer-contact-information-content .item .content-wrapper.min-width {
+  min-width: 315px;
+}
+footer .copyright {
+  display: flex;
+  justify-content: space-between;
+}
+footer .copyright .copyright-info {
+  font-family: "EudoxusSans-Medium";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer .copyright .copyright-menu {
+  display: flex;
+  gap: 60px;
+  padding-right: 28px;
+}
+footer .copyright .copyright-menu a {
+  font-family: "EudoxusSans-Medium";
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

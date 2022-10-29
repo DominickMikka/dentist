@@ -66,7 +66,6 @@ input {
 body {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 32px 24px;
 }
 
 header {
@@ -74,7 +73,23 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 0 32px 0;
-  padding: 0 55px;
+  padding: 32px 80px 0;
+
+  .logo {
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: flex-end;
+  
+      span {
+        font-family: 'EudoxusSans-ExtraBold';
+        font-size: 24px;
+        color: #181945;
+        letter-spacing: -0.02em;
+        padding: 0 0 0 10px;
+      }
+    }
+  }
 
   nav {
     display: flex;
@@ -94,21 +109,7 @@ header {
   }
 }
 
-.logo {
-  a {
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
 
-    span {
-      font-family: 'EudoxusSans-ExtraBold';
-      font-size: 24px;
-      color: #181945;
-      letter-spacing: -0.02em;
-      padding: 0 0 0 10px;
-    }
-  }
-}
 
 .book-appointment {
   display: flex;
@@ -129,6 +130,8 @@ header {
 main {
   display: flex;
   flex-direction: column;
+  padding: 0px 25px 0;
+  margin: 0 0 147px 0;
 }
 
 .slider {
@@ -1024,5 +1027,175 @@ main {
       border: 0;
       cursor: pointer;
     }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px 100px;
+  background: #041434;
+
+  .footer-wrapper {
+    display: flex;
+    gap: 134px;
+    margin: 0 0 120px 0;
+  
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  
+      .logo {
+        a {
+          text-decoration: none;
+          display: flex;
+          align-items: flex-end;
+      
+          span {
+            font-family: 'EudoxusSans-ExtraBold';
+            font-size: 24px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+            padding: 0 0 0 10px;
+          }
+        }
+      }
+  
+      .footer-description {
+        max-width: 510px;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        opacity: 0.6;
+      }
+  
+      .footer-social {
+        padding: 37px 0 0 0;
+  
+        .footer-social-title {
+          padding: 0px 0 25px 0;
+          font-family: 'EudoxusSans-Bold';
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 12px;
+        }
+  
+        .footer-social-icons {
+          display: flex;
+          gap: 47px;
+        }
+  
+      }
+    }
+  
+    .footer-menu {
+      position: relative;
+      left: 16px;
+      min-width: 102px;
+  
+      .footer-menu-title {
+        padding: 0px 0 30px 0;
+        font-family: 'EudoxusSans-Bold';
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+      }
+  
+      .footer-menu-links {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+  
+        a {
+          font-family: 'EudoxusSans-Bold';
+          font-size: 14px;
+          letter-spacing: -0.02em;
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+      }
+    }
+  
+    .footer-contact-information {
+  
+      .footer-contact-information-title {
+        padding: 0px 0 37px 0;
+        font-family: 'EudoxusSans-Bold';
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+      }
+  
+      .footer-contact-information-content {
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+  
+        .item {
+          display: flex;
+          gap: 23px;
+  
+          .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 230px;
+            padding: 10px 0 0 0;
+            font-family: 'EudoxusSans-Bold';
+            letter-spacing: -0.02em;
+  
+            .item-title {
+              font-size: 14px;
+              color: rgba(255, 255, 255, 0.6);
+            }
+  
+            .item-phone {
+              font-size: 18px;
+              font-family: 'EudoxusSans-Bold';
+              color: #FFFFFF;
+              text-decoration: none;
+            }
+          }
+  
+          .content-wrapper {
+
+            &.min-width {
+              min-width: 315px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+
+    .copyright-info {
+      font-family: "EudoxusSans-Medium";
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .copyright-menu {
+      display: flex;
+      gap: 60px;
+      padding-right: 28px;
+
+      a {
+        font-family: "EudoxusSans-Medium";
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+    }
+    
+
   }
 }
